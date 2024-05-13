@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adds</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to your separate CSS file -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide"
+          data-details="Details for Image 1"
+          data-booking="Booking information for Image 1"
+        >
+          <img src="Add_img/add1.avif" alt="Image 1" />
+        </div>
+        <div
+          class="swiper-slide"
+          data-details="Details for Image 2"
+          data-booking="Booking information for Image 2"
+        >
+          <img src="Add_img/add2.avif" alt="Image 2" />
+        </div>
+        <div
+          class="swiper-slide"
+          data-details="Details for Image 3"
+          data-booking="Booking information for Image 3"
+        >
+          <img src="Add_img/add3.avif" alt="Image 3" />
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <div id="detailsContainer"></div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/adds.js"></script>
+    <!-- Link to your separate JavaScript file -->
+  </body>
+</html>
